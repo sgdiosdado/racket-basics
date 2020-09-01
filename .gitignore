@@ -1,7 +1,21 @@
-*.ss~
-*.ss#*
-.#*.ss
+# Created by https://www.toptal.com/developers/gitignore/api/racket
+# Edit at https://www.toptal.com/developers/gitignore?templates=racket
 
-*.scm~
-*.scm#*
-.#*.scm
+### Racket ###
+# gitignore template for the Racket language
+# website: http://www.racket-lang.org/
+
+# DrRacket autosave files
+*.rkt~
+*.rkt.bak
+\#*.rkt#
+\#*.rkt#*#
+
+# Compiled racket bytecode
+compiled/
+*.zo
+
+# Dependency tracking files
+*.dep
+
+# End of https://www.toptal.com/developers/gitignore/api/racket
