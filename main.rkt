@@ -2,12 +2,12 @@
 
 ; 1. Función clima: Recibe un número que representa la temperatura en centígrados y regresa un símbolo
 (define (clima grados)
-  (cond [(<= grados 0 ) printf 'Congelado]
-        [(<= grados 10) printf 'Helado]
-        [(<= grados 20) printf 'Frío]
-        [(<= grados 30) printf 'Normal]
-        [(<= grados 40) printf 'Caliente]
-        [(> grados 40) printf 'Hirviendo]
+  (cond [(<= grados 0 ) 'Congelado]
+        [(<= grados 10) 'Helado]
+        [(<= grados 20) 'Frío]
+        [(<= grados 30) 'Normal]
+        [(<= grados 40) 'Caliente]
+        [(> grados 40) 'Hirviendo]
    ))
 
 ; 2. Función cuadrante: Recibe dos argumentos numéricos representando 'x' y 'y' y regresa el cuadrante del plano cartesiando en el que se encuentra
